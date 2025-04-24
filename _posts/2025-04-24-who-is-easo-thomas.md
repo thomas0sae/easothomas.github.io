@@ -8,5 +8,8 @@ Easo Thomas wants to be the best communicator in the world. He thinks people hav
 
 Easo Thomas has attempted his share of startup by working with his friends, attempting himself to create a dating app for Indians, a neighborhood app for Indians, and also he attempted creating a Resume ATS service in 2018. 
 
+Every word in this post was handwritten by Easo Thomas himself, and not by an LLM. If there are mistakes, thats your proof! I make mistakes and quickly learn from it and try my best to not repeat it ever. I also make sure I share the learnings with others. 
+
+
 [LinkedIn](https://www.linkedin.com/in/easo-thomas/)
 [GitHub](https://github.com/thomas0sae/)

@@ -1,0 +1,22 @@
+# Setup
+title:               Easo Thomas
+tagline:             'Easo Thomas Website'
+description:         'Easo Thomas Website'
+url:                 https://easothomas.com
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Easo Thomas
+  url:               https://easothomas.com
+  email:             as.thoms@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y

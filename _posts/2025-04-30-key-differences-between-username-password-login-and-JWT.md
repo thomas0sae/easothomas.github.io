@@ -60,7 +60,7 @@ Followup questions include:
 ## References from Internet (not in any order)
 
 - https://security.stackexchange.com/a/191897
-
+- https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/
 
 <br><br>
 Fully written by Easo Thomas, 10% helped by AI tools. SOF link by Google search

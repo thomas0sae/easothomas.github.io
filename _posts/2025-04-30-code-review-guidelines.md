@@ -10,11 +10,14 @@ I was recently reading something about code review, and I got some gems from onl
 It is better you go through the reference material at the end of this post. But I will put here what I learnt about reviews and what I would look for. 
 
 ## Terms
-- ** CL: Change List. A self contained change that has been submitted to VCS (see the term definition below), and is made available for reviewers to review. In different companies, these are called PR, Change, Diff, Patch etc.
-- ** VCS: Version Control System. A locally  hosted or cloud hosted code repository. Bitbucket, Github are all good examples of a cloud hosted VCS
-- **LGTM: Looks Good To Me. A comment which is prefixed with LGTM is approved by the reviewer and can go to Production as is. In different companies, this has different meanings. For eg. in Meta, this doesn't mean ready to deploy or ready to go to Prod yet. Also, depends on who/what capacity the reviewer is. 
 
-- **Nit: Nit-Picking. Something that is not urgent or important to fix, but to remind the developer to take care of it next time. Again, this means different things in different companies
+- **CL: Change List**: A self contained change that has been submitted to VCS (see the term definition below), and is made available for reviewers to review. In different companies, these are called PR, Change, Diff, Patch etc.
+
+- **VCS: Version Control System**. A locally  hosted or cloud hosted code repository. Bitbucket, Github are all good examples of a cloud hosted VCS
+
+- **LGTM: Looks Good To Me.** A comment which is prefixed with LGTM is approved by the reviewer and can go to Production as is. In different companies, this has different meanings. For eg. in Meta, this doesn't mean ready to deploy or ready to go to Prod yet. Also, depends on who/what capacity the reviewer is. 
+
+- **Nit: Nit-Picking.** Something that is not urgent or important to fix, but to remind the developer to take care of it next time. Again, this means different things in different companies
 
 
 ### Code Review Guidelines & Motivations
@@ -30,12 +33,12 @@ Below checklist is in random order of my learning. Use the references below for 
 - 
 
 ### Code Level Deep Dive Review I used to do
--- Alert when loop inside a loop is coded, Expensive operations inside a loop, multiple method calls in loop, multiple exceptions coming out of a loop etc.
--- Unnecessary Exception throwing or handling
--- Multiple logging statements (may have been put at the time of coding/debugging). Opposite of this is also to be checked - inefficient logging. There should be at least two lines of logs - whats coming in, and what goes out of a method. 
--- Excessive allocations of objects. In java, see how many "new" are being called
--- inefficient string concatenations. Overloaded + operator is dangerous in String operation, especially in a loop
--- Code duplication. Check those SonarQube reports
+- Alert when loop inside a loop is coded, Expensive operations inside a loop, multiple method calls in loop, multiple exceptions coming out of a loop etc.
+- Unnecessary Exception throwing or handling
+- Multiple logging statements (may have been put at the time of coding/debugging). Opposite of this is also to be checked - inefficient logging. There should be at least two lines of logs - whats coming in, and what goes out of a method. 
+- Excessive allocations of objects. In java, see how many "new" are being called
+- inefficient string concatenations. Overloaded + operator is dangerous in String operation, especially in a loop
+- Code duplication. Check those SonarQube reports
 
 
 ## References from Internet (not in any order)
